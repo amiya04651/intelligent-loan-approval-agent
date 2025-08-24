@@ -39,39 +39,39 @@ An AI-driven loan approval solution leveraging LLMs and LangChain agents for aut
 
 ## Usage
 
-Open the Streamlit dashboard in your browser.
+- Open the Streamlit dashboard in your browser.
 
-Upload required loan documents (ID proofs, income statements, etc.).
+- Upload required loan documents (ID proofs, income statements, etc.).
 
-The system analyzes the documents and predicts loan approval status.
+- The system analyzes the documents and predicts loan approval status.
 
-Download the generated loan approval report as a PDF.
+- Download the generated loan approval report as a PDF.
 
 ## Architecture
 
-1) LLMs + LangChain Agents: Analyze loan documents and extract relevant information.
+1)  LLMs + LangChain Agents: Analyze loan documents and extract relevant information.
 
-2) Risk Detection Module: Evaluates applicant’s creditworthiness based on extracted data.
+2)  Risk Detection Module: Evaluates applicant’s creditworthiness based on extracted data.
 
-3) Streamlit Dashboard: Provides an interactive interface for users to upload documents and view results.
+3)  Streamlit Dashboard: Provides an interactive interface for users to upload documents and view results.
 
-4) Report Generation: Creates downloadable loan approval reports summarizing the decision and risk factors.
+4)  Report Generation: Creates downloadable loan approval reports summarizing the decision and risk factors.
 
 ## Technologies Used
 
--> Python
+- Python
 
--> LangChain
+- LangChain
 
--> OpenAI GPT (or other LLMs)
+- OpenAI GPT (or other LLMs)
 
--> Streamlit
+- Streamlit
 
--> Pandas, NumPy
+- Pandas, NumPy
 
--> Scikit-learn
+- Scikit-learn
 
--> PDF and DOCX parsers
+- PDF and DOCX parsers
 
 ## Future Improvements
 
