@@ -26,15 +26,15 @@ An AI-driven loan approval solution leveraging LLMs and LangChain agents for aut
    git clone https://github.com/yourusername/intelligent-loan-approval-agent.git
 
 2. Navigate to the project folder:
-   
+   ```bash
    cd intelligent-loan-approval-agent
    
 4. Install dependencies:
-
+   ```bash
    pip install -r requirements.txt
 
 5. Run the Streamlit app:
-
+   ```bash
    streamlit run app.py
 
 ## Usage
